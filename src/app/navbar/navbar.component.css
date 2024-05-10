@@ -1,0 +1,111 @@
+.header{
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  z-index: 5;
+  position: fixed;
+  top: 0;
+}
+.header .companylogo{
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 130px;
+
+}
+.companylogo img{
+  position: absolute;
+  inset: 0;
+  width: 200px;
+  height: 130px;
+}
+.header nav{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+.header nav a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.navlinks{
+  display: flex;
+  /* gap: 1rem; */
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.navlinks button{
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+  outline: 0;
+  border: 0;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  cursor: pointer;
+}
+.activeroute{
+  color: green;
+  border-bottom: 4px solid green;
+}
+.btn-icon{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+i{
+  color: black;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+#redicon{
+  color: red;
+}
+
+@media (max-width:576px){
+  .navlinks{
+    display: flex;
+    gap: 1rem;
+  }
+  .navlinks nav a{
+    font-size: 0.7rem;
+  }
+  .navlinks i{
+    font-size: 1rem;
+  }
+  .navlinks button{
+    font-size: 0.6rem;
+    padding: 0.5rem;
+  }
+  .header{
+    width: 100%;
+    background-color: #fff;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+  }
+  .companylogo{
+    display: none;
+  }
+  .companylogo img{
+    display: none;
+    /* width: 150px; */
+    /* height: 100px; */
+  }
+  #username i{
+    font-size: 0.8rem;
+  }
+  #username{
+    font-size: 0.8rem;
+  }
+
+}

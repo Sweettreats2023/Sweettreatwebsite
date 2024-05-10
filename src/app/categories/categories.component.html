@@ -1,0 +1,32 @@
+<div class="main-products">
+  <div>
+    <app-navbar></app-navbar>
+  </div>
+  <div class="heading">
+    <h1>Categories</h1>
+  </div>
+  <div class="products-display">
+    @for (item of products; track $index) {
+    <div class="product">
+      <div>
+        <img src="{{item.categoryimg}}" alt="">
+      </div>
+      <div class="product-padding">
+      <div>
+        <h3>{{item.catname}}</h3>
+      </div>
+      <div class="description">
+        <p>{{item.description}}</p>
+      </div>
+      <div>
+       <a  (click)="productname(this.item.catname)"> <button class="button">Explore</button></a>
+      </div>
+
+    </div>
+    </div>
+  }
+  </div>
+  <div>
+    <app-footer></app-footer>
+  </div>
+</div>

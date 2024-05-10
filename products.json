@@ -1,0 +1,128 @@
+{
+"categories":[
+  {
+    "categoryimg":"../../assests/cakecatimg.jpeg",
+    "catname":"Cake",
+    "description":"Indulge in a world of sweet delights with our exquisite collection of cakes. From timeless classics to innovative creations.",
+    "products":[
+      {
+        "cakename":"Arabian Mango Cake",
+        "ratings":4,
+        "img":"../../assets/Mango-cake.jpg",
+        "price":500
+      },
+      {
+        "cakename":"Butterscotch Cake",
+        "ratings":3,
+        "img":"../../assets/BUTTERSCOTCH-CAKE-3-750x500.jpg",
+        "price":600
+      },
+      {
+        "cakename":"Honey Cake",
+        "ratings":4,
+        "img":"../../assets/honey cake.jpeg",
+        "price":700
+      },
+      {
+        "cakename":"Red Velvet Cake",
+        "ratings":5,
+        "img":"../../assets/redvelvet.webp",
+        "price":1000
+      }
+    ]
+  },
+  {
+    "categoryimg":"../../assests/cookiescatimg.jpg",
+    "catname":"Cookies",
+    "description":"Indulge in the simple pleasures of our delectable cookies, handcrafted with love and care to satisfy your sweet cravings.",
+    "products":[
+      {
+        "cakename":"Snickerdoodles",
+        "ratings":4,
+        "img":"../../assets/cookies 1.jpeg",
+        "price":500
+      },
+      {
+        "cakename":"Rainbow rave",
+        "ratings":3,
+        "img":"../../assets/cookies.jpg",
+        "price":500
+      },
+      {
+        "cakename":"Macarons",
+        "ratings":4,
+        "img":"../../assets/cookies 2.jpeg",
+        "price":200
+      },
+      {
+        "cakename":"Thumbprint Cookies",
+        "ratings":5,
+        "img":"../../assets/cookies 3.jpeg",
+        "price":300
+      }
+    ]
+  },
+  {
+    "categoryimg":"../../assests/breadcatimg.jpg",
+    "catname":"Bread",
+    "description":"Our bakers blend time-honored techniques with a passion for perfection to create bread that's a cut above the rest.",
+    "products":[
+      {
+        "cakename":"Baguette",
+        "ratings":4,
+        "img":"../../assets/bread 1.jpeg",
+        "price":200
+      },
+      {
+        "cakename":"Ciabatta",
+        "ratings":3,
+        "img":"../../assets/bread 2.jpeg",
+        "price":300
+      },
+      {
+        "cakename":"Pita",
+        "ratings":5,
+        "img":"../../assets/bread 3.jpeg",
+        "price":200
+      },
+      {
+        "cakename":"Focaccia",
+        "ratings":5,
+        "img":"../../assets/bread 4.jpeg",
+        "price":500
+      }
+    ]
+  },
+  {
+    "categoryimg":"../../assests/muffincatimg.jpg",
+    "catname":"Muffin",
+    "description":"We believe in using fresh, locally sourced ingredients to ensure the best taste and quality in every muffin we bake.",
+    "products":[
+      {
+        "cakename":"Blueberry Muffins",
+        "ratings":4,
+        "img":"../../assets/muffin 1.jpeg",
+        "price":100
+      },
+      {
+        "cakename":"Banana Nut Muffins",
+        "ratings":1,
+        "img":"../../assets/muffin 2.webp",
+        "price":50
+      },
+      {
+        "cakename":"Pumpkin Muffins",
+        "ratings":3,
+        "img":"../../assets/muffin 3.webp",
+        "price":100
+      },
+      {
+        "cakename":"Apple Cinnamon Muffins",
+        "ratings":4,
+        "img":"../../assets/muffin 4.jpeg",
+        "price":200
+      }
+    ]
+  }
+]
+}
